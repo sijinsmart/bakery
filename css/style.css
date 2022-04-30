@@ -232,6 +232,34 @@ h2{
     background-position: center;
 }
 
+.itemseven{
+  background-image: url("../img/fallon-michael-H6OBZaVveCA-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.itemeight{
+  background-image: url("../img/jem-sahagun-s5QVs3yfvD0-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.itemnine{
+  background-image: url("../img/bas-peperzak-XNNurImW1xM-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.itemten{
+  background-image: url("../img/bruno-thethe-3MgnexRzVgA-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .textcontainers {
     display: flex;
     background-color:#DDB892;
