@@ -5,10 +5,11 @@
 
 /*pageone*/
 
-.grid-column-layoutone{
+/*.grid-column-layoutone{
     display: grid;
     grid-template-rows: 1fr 3fr 1fr;
 }
+*/
 
 .box{
     padding: 2.65em;
@@ -23,7 +24,7 @@
 }
 
 .two{
-    background-image: url("../img/homebread.jpg");
+    background-image: url("../img/bizhi.JPG");
     grid-row: 2/3;
     background-size: cover;
     background-repeat: no-repeat;
@@ -39,28 +40,62 @@
     justify-content: center;
 }
 
+
 .nav{
     text-align: center;
+    padding: 0%;
 }
 
 li{
-    display: block;
+    display: inline-block;
     background-color: #DDB892;
     padding: 10px;
-    margin: 60px;
+    margin: 10px;
     border-radius: 5px;
     font-size: 25px;
+    position: relative;
+    width: 100px;
+    text-align: center;
 }
 
 li a {
     transition: all 2s;
     text-decoration: none;
     color:black;
+    position: relative;
 }
 
 li:hover{
     background-color: #E6CCB2;
 }
+
+.introduction{
+    border-radius: 10px;
+    color: black;
+    margin-top:20px;   
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media screen and (min-width: 680px) {
+    .introduction{
+    border-radius: 10px;
+    color: black;
+    margin-top:30px;
+    margin-left: 120px;
+    margin-right: 120px;    
+    padding: 50px;
+    font-size: 25px;
+    text-align: center;
+    }
+
+    .grid-column-layoutone{
+        display: grid;
+        grid-template-rows: 1fr 3fr 1fr;
+    }
+    
+  }
 
 /*pagetwo*/
 
@@ -226,10 +261,18 @@ h2{
     grid-row: 2/3;
     grid-column: 1/3;
     text-align: center;
-    font-size: 20px;
     background-image: url("../img/toast.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+}
+
+h4{
+    font-size: 25px;
+}
+
+p{
+    font-size:22px ;
 }
 
 .qrcode{
